@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@babel/runtime": "^7.25.0",
     "@calorielog/contracts": "workspace:*",
     "@clerk/clerk-expo": "^2.0.0",
     "@expo/vector-icons": "^14.0.4",
