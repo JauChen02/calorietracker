@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { and, asc, eq, inArray } from "drizzle-orm";
+import { and, asc, eq } from "drizzle-orm";
 import { createDb, savedMealItems, savedMeals } from "@calorielog/db";
 import { UpdateSavedMealSchema } from "@calorielog/contracts";
 import { assertDatabaseUrl } from "@/lib/env";
