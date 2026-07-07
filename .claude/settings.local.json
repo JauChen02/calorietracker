@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install *)",
+      "Bash(npm install *)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/jauchen/.local/share/pnpm/**)",
+      "Read(//Users/jauchen/Library/pnpm/**)",
+      "Bash(command -v corepack)",
+      "Bash(find /opt/homebrew /usr/local /usr -name \"pnpm\" -type f 2>/dev/null | head -5; find /Users/jauchen -name \"pnpm\" -type f 2>/dev/null | head -5)",
+      "Read(//opt/**)",
+      "Read(//Users/jauchen/**)",
+      "Bash(grep -n \"\\\\.env\\\\.local\\\\|\\\\.env$\\\\|\\\\.env\\\\.\" /Users/jauchen/Desktop/VIBECODE/CalorieTracker/.gitignore)"
+    ]
+  }
+}

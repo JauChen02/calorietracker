@@ -1,0 +1,26 @@
+{
+  "name": "calorielog",
+  "private": true,
+  "version": "0.0.1",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "pnpm -r run typecheck",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "dev:mobile": "pnpm --filter=@calorielog/mobile start",
+    "dev:api": "pnpm --filter=@calorielog/api dev",
+    "db:generate": "pnpm --filter=@calorielog/db run generate",
+    "db:migrate": "pnpm --filter=@calorielog/db run migrate",
+    "db:status": "pnpm --filter=@calorielog/db run status"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0",
+    "vitest": "^2.1.8"
+  }
+}

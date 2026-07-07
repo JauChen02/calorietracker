@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "expo.vscode-expo-tools",
+    "ms-vscode.vscode-typescript-next",
+    "drizzle-team.drizzle-vscode",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
