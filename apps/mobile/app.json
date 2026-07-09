@@ -24,7 +24,9 @@
         {
           "cameraPermission": "CalorieLog uses the camera to scan barcodes on food packages."
         }
-      ]
+      ],
+      "expo-sqlite",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
